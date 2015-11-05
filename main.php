@@ -8,6 +8,10 @@
 				echo($x);
 				echo(" ");
 				$flag = false;
+				if($x%7==0){
+					echo("Git");
+					echo(" ");
+				}
 				if($x%15==0){
 					echo("FizzBuzz");
 					$flag = true;
