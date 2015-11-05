@@ -3,9 +3,10 @@
 </head>
 <body>
 	<?php
-			$x = 0;
-			for($x=0;$x<101;$x++){
+			
+			for($x=1;$x<101;$x++){
 				echo($x);
+				echo(" ");
 				if($x%15==0){
 					echo("FizzBuzz");
 				}
@@ -15,6 +16,7 @@
 				if($x%5==0){
 					echo("Buzz");
 				}
+				echo("<br>");
 			}
 			
 	?>
